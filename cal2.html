@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            calc
+        </title>
+    </head>
+    <script>
+
+     
+     function BlackTheme()
+       {
+        document.bgColor="black";
+       }
+
+       function RedTheme()
+       {
+        document.bgColor="red";
+       }
+
+       function AquaTheme()
+       {
+        document.bgColor="aqua";
+       }
+
+       function add1()
+       {
+        const num1=5;
+        const num2=3;
+
+        const sum=num1+num2;
+        alert(sum);
+        txtans.value=sum;
+       }
+
+       function add2()
+       {
+        const num1=5;
+        const num2=3;
+
+        const sum=num1-num2;
+        alert(sum);
+        txtans.value=sum;
+       }
+
+       function add3()
+       {
+        const num1=5;
+        const num2=3;
+
+        const sum=num1*num2;
+        alert(sum);
+        txtans.value=sum;
+       }
+
+       function add4()
+       {
+        const num1=5;
+        const num2=3;
+
+        const sum=num1/num2;
+        alert(sum);
+        txtans.value=sum;
+       }
+       
+       function add5()
+       {
+        const num1=5;
+        const num2=3;
+
+        const sum="";
+        alert("");
+        txtans.value=sum;
+       }
+     
+    </script>
+    <body>
+        <div style="text-align:center;">
+            <input type="text" value="0" width=100px height=100px style="background-color:aqua ;" name="txtans" id="txtans">
+           
+            <input type="button" onclick="add1()"  value="+" style="background-color:aqua ;" >
+            <input type="button" onclick="add2()"  value="-" style="background-color:aqua ;" >
+            <input type="button" onclick="add3()"  value="*" style="background-color:aqua ;" >
+            <input type="button" onclick="add4()"  value="/" style="background-color:aqua ;" >
+            <input type="button" onclick="add5()"  value="c" style="background-color:aqua ;" >
+        </div>
+
+        <div style="text-align:center;" style="width:500px;">
+            <input type="button" onclick="BlackTheme()"; style="background-color:black ;">
+            <input type="button" onclick="RedTheme()";  style="background-color:red ;">
+            <input type="button" onclick="AquaTheme()";  style="background-color:rgb(26, 83, 83) ;">
+        </div>
+        
+    </body>
+</html>
